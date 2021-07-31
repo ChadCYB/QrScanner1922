@@ -1,4 +1,4 @@
-package com.cyb.qrscanner1922
+package com.cyb.cdcqrscanner1922
 
 import io.flutter.embedding.android.FlutterActivity
 

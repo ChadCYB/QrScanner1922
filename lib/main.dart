@@ -139,7 +139,7 @@ class _QRScanPageState extends State<QRScanPage> {
                   return Icon(
                       snapshot.data! ? Icons.flash_on : Icons.flash_off);
                 } else {
-                  return Container();
+                  return Icon(Icons.flash_off);
                 }
               },
             ),
@@ -155,7 +155,7 @@ class _QRScanPageState extends State<QRScanPage> {
                   if (snapshot.data != null) {
                     return Icon(Icons.switch_camera);
                   } else {
-                    return Container();
+                    return Icon(Icons.switch_camera);
                   }
                 }),
             onPressed: () async {
